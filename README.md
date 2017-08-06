@@ -6,26 +6,33 @@ Coin Abbreviation: NAMO
 Coin Type: Pow-Pos
 Hashing Algorithm: NIST5
 Block Time: 120 seconds
-Initial Block Reward: 25 NAMO
+Initial Block Reward: 20 NAMO
 Year interest: 5%
-Premine Amount: 60,000,000 NAMO
-PoW Coins: 60,000,000 NAMO
-Supply: 120,000,000 NAMO
+Premine Amount: 560,000,000 NAMO
+Supply: 1200,000,000 NAMO
 Maximum Block Size: 1MB
 PoS activation: after PoW end
 
-
+-----------------------------------------------------------------------
 
 RPC PORT 19101
-P2P PORT 18209
+P2P PORT 16305
+-----------------------------------------------------------------------
+listen=1
+server=1
+daemon=1
+rpcuser=yoursaddit
+rpcpassword=addithere
+rpcport=19101
+port=16305
+rpcallowip=127.0.0.1
+-------------------------------------------------------------------------
+option to add sometimes needed 
+
+externalip=
 
 
+-------------------------------------------------------------------------
 
-Block structure
-
-1: 60000000 
-2-800002 = 25 
-800003-2050002= 20
-2050003-3050002 = 15
 
 
